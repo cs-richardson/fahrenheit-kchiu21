@@ -1,8 +1,10 @@
-#take user input to get Celsius, added float to make it only work for number inputs
-c = float(input("Enter the temperature in Celsius: "))
+#In this project we are tasked to create a program that converts celcius to farenheit.
 
-#equation to convert celcius to farenheit
-f = ((9/5) * c) + 32
+#Kolton Chiu
+#Aug 16
 
-#print out answer, and also added the degrees the symbol
-print ('Degrees in farenheit is: ',f,'º')
+celciusTemp = float(input("C: "))
+farenheitTemp = ((9/5) * celciusTemp) + 32
+print ('F: ',farenheitTemp)
+
+#print ('F: ',farenheitTemp,'º')
